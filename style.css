@@ -1,0 +1,36 @@
+html {
+  height: 100%;
+  width: 100%;
+}
+/* Wally the Wombat wants to update their profile - let's help them out. */
+/* 1. Change the color of the <h1> tag. Remember, the property to change the color of text is color and the value is the name of the color you want (or use a hex code!) */
+
+h1 {
+  color: #f291a2;
+}
+
+/* 2. Using body as our selector, change the background-color to whatever color you want. */
+body {
+  background-color: #edd4d8;
+  font-family: Arial, sans-serif;
+  text-align: center;
+}
+
+main {
+  width: 80%;
+  margin: 20px auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+}
+
+img {
+  /* 3. Change the value of max-width to 400px. */
+  max-width: 400px;
+
+  /* 4. Add a property called border-radius and set the value to 50%. What happens? */
+  border-radius: 50%;
+  border: solid;
+  border-color: #e53855;
+
+
+}
